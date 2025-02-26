@@ -1,0 +1,43 @@
+/* Card.css */
+
+.Card {
+    width: 300px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    background-color: #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .Card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .details {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  
+  .details h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .details p {
+    font-size: 18px;
+    color: #555;
+    margin: 4px 0 0 0;
+  }
+  
+  .info {
+    font-size: 14px;
+    color: #666;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 16px;
+  }
+  
