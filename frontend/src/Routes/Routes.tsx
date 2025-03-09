@@ -16,13 +16,13 @@ export const router = createBrowserRouter([
         children: [
             {path: "", element: <Homepage/>},
             {path: "search", element: <Searchpage/>},
-            {path: "design-guide", element: <Designpage/    >},
-            {path: "company/:ticker", 
-            element: <Companypage/>,
-        children: [
-            {path: "company-profile", element: <CompanyProfile/>},
-            {path: "income-statement", element: <IncomeStatement/>}
-        ]}
+            {path: "design-guide", element: <Designpage/>},
+            {path: "company/:ticker", element: <Companypage/>,
+                children: [
+                    {path: "company-profile", element: <CompanyProfile/>},
+                    {path: "income-statement", element: <IncomeStatement/>}
+                            ]
+            }
         ]
     }
 ])
